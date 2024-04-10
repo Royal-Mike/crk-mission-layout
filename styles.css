@@ -97,13 +97,13 @@ h3.text_title {
 }
 
 .cookie[data-cookie="1"] {
-    right: 280px;
+    right: 340px;
     transform: scaleX(-1);
 }
 
 .cookie[data-cookie="2"] {
     top: -15px;
-    right: 130px;
+    right: 190px;
 }
 
 .box {

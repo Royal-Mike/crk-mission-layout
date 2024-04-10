@@ -4,24 +4,24 @@ const missions = [
         text:"Vote in Cookie Debate Club", rewards:100, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Get to Wave 5 of Survival in CrumbSeeker Dungeon with [Orange Soda Cookie]", rewards:100, count:5
+        type:1, difficulty:0,  icon:"fa-brands fa-youtube",
+        text:"Comment on RoyalMike's latest YouTube Short", rewards:100, count:1
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by [pearleslyrin] in CrumbSeeker", rewards:300, count:3
+        text:"Obtain 3 Cookies by [AnonnyPas] in CrumbSeeker", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw one of your OCs at the Spring Pop Festival!", rewards:300, count:1
+        text:"Draw concept art for an Epic Costume for an OC that DOESN'T belong to you", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Encounter [Gummy Worm Cookie] in CrumbSeeker Champion's League", rewards:500, count:1
+        text:"Get to Wave 10 in CrumbSeeker Survival by using ONLY the first 2 Moves a Cookie has", rewards:700, count:10
     }
 ];
 
-missions.forEach(item => {
+missions.forEach((item, index) => {
     const color = item.difficulty === 0 ? "easy" : (item.difficulty === 1 ? "normal" : "hard");
     const type = item.type === 0 ? "auto" : "manual";
 
@@ -33,7 +33,7 @@ missions.forEach(item => {
             <div class="mission">
                 <div class="flex">
                     <img src="images/${type}.png">
-                    &nbsp;${type}
+                    &nbsp;${type} ${index === 4 ? "(Requires Video Evidence)" : ""}
                 </div>
                 <p class="text">${item.text}</p>
             </div>
@@ -44,7 +44,7 @@ missions.forEach(item => {
             <div class="button_cont flex flexcol">
                 <div class="shine"></div>
                 <div class="button flex">
-                    <p class="text_border">${type[0].toUpperCase()}</p>
+                    <p class="text_border">>></p>
                 </div>
                 <div class="bar flex">0/${item.count}</div>
             </div>
