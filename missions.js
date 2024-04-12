@@ -1,29 +1,29 @@
 const missions = [
     {
-        type:0, difficulty:0, icon:"fa-brands fa-discord",
-        text:"Vote in Cookie Debate Club", rewards:100, count:1
+        type:1, difficulty:0, icon:"fa-solid fa-cube",
+        text:"Level Up [Cream Pie Cookie] or [White Frosting Cookie] to Lv. 10", rewards:100, count:10
     },
     {
-        type:1, difficulty:0,  icon:"fa-brands fa-youtube",
-        text:"Comment on RoyalMike's latest YouTube Short", rewards:100, count:1
+        type:1, difficulty:0,  icon:"fa-solid fa-cube",
+        text:"Win over 10,000 CrumbBytes from CrumbSeeker Survival", rewards:100, count:10000
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by [AnonnyPas] in CrumbSeeker", rewards:300, count:3
+        text:"Obtain 3 Cookies by [anon_serenade] in CrumbSeeker", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw concept art for an Epic Costume for an OC that DOESN'T belong to you", rewards:300, count:1
+        text:"Draw Blue Heaven Cookie!", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Get to Wave 10 in CrumbSeeker Survival by using ONLY the first 2 Moves a Cookie has", rewards:700, count:10
+        type:2, difficulty:2,  icon:"fa-solid fa-cube",
+        text:"Get [Sugar Skull Cookie] to 1,500 Total Affection TOGETHER!", rewards:500, count:1500
     }
 ];
 
 missions.forEach((item, index) => {
     const color = item.difficulty === 0 ? "easy" : (item.difficulty === 1 ? "normal" : "hard");
-    const type = item.type === 0 ? "auto" : "manual";
+    const type = item.type === 0 ? "auto" : (item.type === 1 ? "manual" : "team");
 
     $("body").append(
         `<div class="box box-${color} flex">
@@ -33,7 +33,7 @@ missions.forEach((item, index) => {
             <div class="mission">
                 <div class="flex">
                     <img src="images/${type}.png">
-                    &nbsp;${type} ${index === 4 ? "(Requires Video Evidence)" : ""}
+                    &nbsp;${type}
                 </div>
                 <p class="text">${item.text}</p>
             </div>
@@ -46,7 +46,7 @@ missions.forEach((item, index) => {
                 <div class="button flex">
                     <p class="text_border">>></p>
                 </div>
-                <div class="bar flex">0/${item.count}</div>
+                <div class="bar flex">${index === 4 ? "100" : "0"}/${item.count}</div>
             </div>
         </div>`
     );
