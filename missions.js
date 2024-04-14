@@ -1,23 +1,23 @@
 const missions = [
     {
         type:1, difficulty:0, icon:"fa-solid fa-cube",
-        text:"Level Up [Cream Pie Cookie] or [White Frosting Cookie] to Lv. 10", rewards:100, count:10
+        text:"Own a Costume featured in this month's Update Video", rewards:100, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Win over 10,000 CrumbBytes from CrumbSeeker Survival", rewards:100, count:10000
+        type:1, difficulty:0,  icon:"fa-brands fa-discord",
+        text:"Buy your first package!", rewards:100, count:1
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by [anon_serenade] in CrumbSeeker", rewards:300, count:3
+        text:"Obtain 3 Cookies by [LimeyAce] in CrumbSeeker", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw Blue Heaven Cookie!", rewards:300, count:1
+        text:"Draw a Cookie by an inactive user in this server!", rewards:300, count:1
     },
     {
-        type:2, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Get [Sugar Skull Cookie] to 1,500 Total Affection TOGETHER!", rewards:500, count:1500
+        type:1, difficulty:2,  icon:"fa-solid fa-cube",
+        text:"Donate 200 Crumb Bytes to a Cookie", rewards:500, count:200
     }
 ];
 
@@ -46,7 +46,7 @@ missions.forEach((item, index) => {
                 <div class="button flex">
                     <p class="text_border">>></p>
                 </div>
-                <div class="bar flex">${index === 4 ? "100" : "0"}/${item.count}</div>
+                <div class="bar flex">0/${item.count}</div>
             </div>
         </div>`
     );

@@ -1,16 +1,18 @@
 const packages = [
-    {name:"Beginner Prank Set", conveyor: 2, spring: 2, plank: 5},
-    {name:"Regular Pranksters Set", conveyor: 4, spring: 4, glue: 2, plank: 10},
-    {name:"Seasoned Pranksters Set", conveyor: 7, spring: 7, glue: 4, ice: 2, baseball: 1, teleport: 2, plank: 15},
+    {name:"Beginner Prank Set", cookie:"cookie3", price: 1500, conveyor: 2, spring: 2, plank: 5},
+    {name:"Regular Pranksters Set", cookie:"cookie4", price: 3000, conveyor: 4, spring: 4, glue: 2, plank: 10},
+    {name:"Seasoned Pranksters Set", cookie:"cookie1", price: 5000, conveyor: 7, spring: 7, glue: 4, ice: 2, baseball: 1, teleport: 2, plank: 15},
 ];
 
-const current = packages[1];
+const current = packages[2];
 
 $("h1").text(current.name);
+$(".cookie_package").attr("src", `images/${current.cookie}.png`);
+$(".button.package > p").text(current.price.toLocaleString());
 
 let count = 0;
 for (let key in current) {
-    if (key === "name") continue;
+    if (key === "name" || key === "cookie" || key === "price") continue;
 
     let name = key;
 

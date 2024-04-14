@@ -36,9 +36,9 @@ body {
     filter: blur(10px);
 }
 
-.background.package {
+/* .background.package {
     width: 100%;
-}
+} */
 
 .text_title {
     position: relative;
@@ -83,6 +83,12 @@ h3.text_title.package {
     margin-top: 20px;
     color: rgb(255, 255, 128);
     -webkit-text-stroke: 7px transparent;
+}
+
+.text_title_note {
+    font-size: 25px !important;
+    color: white !important;
+    -webkit-text-stroke: 6px transparent !important;
 }
 
 .time_left {
@@ -250,7 +256,7 @@ h3.text_title.package {
 .button.package {
     width: 200px;
     height: 70px;
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: rgb(63, 214, 71);
     border: 3px solid rgba(0, 0, 0, 0.8);
     box-shadow:
@@ -286,6 +292,7 @@ h3.text_title.package {
 .package_container {
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
 
 .package_content {
@@ -341,4 +348,16 @@ h3.text_title.package {
     margin-top: 70px !important;
     font-size: 20px !important;
     line-height: 25px !important;
+}
+
+.text_note {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    text-align: right;
 }
