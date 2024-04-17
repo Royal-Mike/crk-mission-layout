@@ -1,23 +1,23 @@
 const missions = [
     {
         type:1, difficulty:0, icon:"fa-solid fa-cube",
-        text:"Own a Costume featured in this month's Update Video", rewards:100, count:1
+        text:"Level Up 3 Pink Cookies (not counting Costumes) in CrumbSeeker", rewards:100, count:3
     },
     {
         type:1, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Buy your first package!", rewards:100, count:1
+        text:"Buy a package!", rewards:100, count:1
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by [LimeyAce] in CrumbSeeker", rewards:300, count:3
+        text:"Obtain 3 Cookies by [RoyalMike] in CrumbSeeker", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie by an inactive user in this server!", rewards:300, count:1
+        text:"Draw a Cookie by an active user in this server! (Can't be a creator you've made art for before)", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Donate 200 Crumb Bytes to a Cookie", rewards:500, count:200
+        text:"Reach Wave 40 in Crumbeeeker Dungeon using an S-Tier Cookie (from BlueAquaCat's Tier List)", rewards:500, count:40
     }
 ];
 

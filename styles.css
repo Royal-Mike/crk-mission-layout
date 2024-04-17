@@ -36,6 +36,11 @@ body {
     filter: blur(10px);
 }
 
+.color_overlay {
+    background: rgb(62, 0, 128);
+    mix-blend-mode: color;
+}
+
 /* .background.package {
     width: 100%;
 } */
