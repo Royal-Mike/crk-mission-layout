@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:1, difficulty:0, icon:"fa-solid fa-cube",
-        text:"Level Up 3 Pink Cookies (not counting Costumes) in CrumbSeeker", rewards:100, count:3
+        type:1, difficulty:0, icon:"fa-brands fa-discord",
+        text:"Showcase a W.I.P. of your blueprint!", rewards:100, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Buy a package!", rewards:100, count:1
+        type:1, difficulty:0,  icon:"fa-solid fa-cube",
+        text:"Spend 10 million Charges in CrumbSeeker's Seekers", rewards:100, count:10
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by [RoyalMike] in CrumbSeeker", rewards:300, count:3
+        text:"Obtain 3 Cookies by [LemonSoda☆] in CrumbSeeker", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie by an active user in this server! (Can't be a creator you've made art for before)", rewards:300, count:1
+        text:"Draw a Pet from the Cookie Run: OvenBreak OC Wiki!", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Reach Wave 40 in Crumbeeeker Dungeon using an S-Tier Cookie (from BlueAquaCat's Tier List)", rewards:500, count:40
+        text:"Obtain [Red Velvet Crinkle], [Victoria Sponge Cake], and [Mint Brownie Milkshake] in CrumbSeeker's Seeker B", rewards:500, count:3
     }
 ];
 
