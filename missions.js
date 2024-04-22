@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:1, difficulty:0, icon:"fa-brands fa-discord",
-        text:"Buy something from the Economy Shop!", rewards:100, count:1
+        type:0, difficulty:0, icon:"fa-solid fa-heart",
+        text:"Free points! Thanks for playing!", rewards:100, count:0
     },
     {
         type:0, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Fill out the form for May's CrumbEvent!", rewards:100, count:1
+        text:"Fill out the form for May's CrumbEvent!<br>(Please we need more submissions)", rewards:100, count:1
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by [Acko, Acko O Bacco] in CrumbSeeker", rewards:300, count:3
+        text:"Obtain 10 Cookies by ANYONE in CrumbSeeker,<br>must be in the same pull", rewards:300, count:10
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Common Cookie from the Cookie Run Kingdom OC Wiki!", rewards:300, count:1
+        text:"Draw ANY Cookie!", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Reach a score of 150 in Jump Over Atoms", rewards:500, count:150
+        type:1, difficulty:2,  icon:"fa-brands fa-discord",
+        text:"DM your finalized Blueprint to LemonSoda!<br>(This will be used to evaluate your score for the event)", rewards:1000, count:1
     }
 ];
 
@@ -46,7 +46,7 @@ missions.forEach((item, index) => {
                 <div class="button flex">
                     <p class="text_border">>></p>
                 </div>
-                <div class="bar flex">0/${item.count}</div>
+                <div class="bar ${index === 0 ? "bar_completed" : ""} flex">0/${item.count}</div>
             </div>
         </div>`
     );
