@@ -16,7 +16,7 @@ const missions = [
         text:"Draw a Cookie featured in the Server Banner!", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-brands fa-discord",
+        type:1, difficulty:2,  icon:"fa-solid fa-cube",
         text:"Reach Wave 25 in Dungeon Survival using a Common Cookie", rewards:600, count:25
     }
 ];
