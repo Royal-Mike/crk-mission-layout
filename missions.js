@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:0, difficulty:0, icon:"fa-solid fa-heart",
-        text:"Free points! Thanks for playing!", rewards:100, count:0
+        type:0, difficulty:0, icon:"fa-solid fa-dice",
+        text:"Use your free daily roll!", rewards:100, count:1
     },
     {
-        type:0, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Fill out the form for May's CrumbEvent!<br>(Please we need more submissions)", rewards:100, count:1
+        type:1, difficulty:0,  icon:"fa-solid fa-cube",
+        text:"Score 25 Points in ShroomieSeeker!", rewards:100, count:25
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 10 Cookies by ANYONE in CrumbSeeker,<br>must be in the same pull", rewards:300, count:10
+        text:"Obtain 3 Cookies by TArcher", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw ANY Cookie!", rewards:300, count:1
+        text:"Draw a Cookie featured in the Server Banner!", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-brands fa-discord",
-        text:"DM your finalized Blueprint to LemonSoda!<br>(This will be used to evaluate your score for the event)", rewards:1000, count:1
+        text:"Reach Wave 25 in Dungeon Survival using a Common Cookie", rewards:600, count:25
     }
 ];
 
@@ -38,7 +38,7 @@ missions.forEach((item, index) => {
                 <p class="text">${item.text}</p>
             </div>
             <div class="rewards flex flexcol">
-                <img src="images/spring.png">
+                <img src="images/currency.png">
                 <p class="text_border">${item.rewards}</p>
             </div>
             <div class="button_cont flex flexcol">
@@ -46,7 +46,7 @@ missions.forEach((item, index) => {
                 <div class="button flex">
                     <p class="text_border">>></p>
                 </div>
-                <div class="bar ${index === 0 ? "bar_completed" : ""} flex">0/${item.count}</div>
+                <div class="bar flex">0/${item.count}</div>
             </div>
         </div>`
     );
