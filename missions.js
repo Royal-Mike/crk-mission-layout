@@ -5,19 +5,19 @@ const missions = [
     },
     {
         type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Score 25 Points in ShroomieSeeker!", rewards:100, count:25
+        text:"Obtain 5 Costumes!", rewards:100, count:5
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by TArcher", rewards:300, count:3
+        text:"Obtain 3 Cookies by Sugar Skull", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie featured in the Server Banner!", rewards:300, count:1
+        text:"Draw a CrumbSeeker Cookie whose ID is 1000 or more!", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Reach Wave 25 in Dungeon Survival using a Common Cookie", rewards:600, count:25
+        text:"Obtain 5 Cookies with 5 different colors in their name", rewards:600, count:5
     }
 ];
 
