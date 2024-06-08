@@ -5,19 +5,19 @@ const missions = [
     },
     {
         type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Obtain 5 Costumes!", rewards:100, count:5
+        text:"Spend 50 million Charges in CrumbSeeker!", rewards:100, count:50
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by Sugar Skull", rewards:300, count:3
+        text:"Obtain 3 Cookies by anon_serenade", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a CrumbSeeker Cookie whose ID is 1000 or more!", rewards:300, count:1
+        text:"Draw a Cookie whose main color palette is Black and Blue!!", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Obtain 5 Cookies with 5 different colors in their name", rewards:600, count:5
+        text:"Reach Wave 15 in Dungeon Survival with no Epic+ (including Epic) Cookies", rewards:600, count:15
     }
 ];
 
