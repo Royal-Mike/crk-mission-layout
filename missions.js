@@ -5,19 +5,19 @@ const missions = [
     },
     {
         type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Spend 50 million Charges in CrumbSeeker!", rewards:100, count:50
+        text:"Spend 51 million Charges! #AnanasDragon", rewards:100, count:51
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by anon_serenade", rewards:300, count:3
+        text:"Obtain 3 Cookies by Artsy the Ghost", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie whose main color palette is Black and Blue!!", rewards:300, count:1
+        text:"Draw a Cookie whose main color palette is White and Orange!!", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Reach Wave 15 in Dungeon Survival with no Epic+ (including Epic) Cookies", rewards:600, count:15
+        text:"Level up all Cookies mentioned in the June 8th's Patch Log to Lv. 50 or higher", rewards:600, count:50
     }
 ];
 
