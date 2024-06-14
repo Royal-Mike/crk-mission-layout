@@ -5,19 +5,19 @@ const missions = [
     },
     {
         type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Earn over 300K Crumb Bytes from a Survival Run", rewards:100, count:300
+        text:"Complete 5 CrumbSeeker Upgrade Missions!", rewards:100, count:5
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by AnonnyPas", rewards:300, count:3
+        text:"Obtain 3 Cookies by BlueAquaCat", rewards:300, count:3
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie whose main color palette is Red and Green!!", rewards:300, count:1
+        text:"Draw a Cookie whose main color palette is Pink and Green!!!", rewards:300, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Collect all of LemonSoda's Limited Rare Costumes", rewards:1200, count:"?"
+        text:"Reach Wave 50 in Dungeon Survival", rewards:600, count:50
     }
 ];
 
