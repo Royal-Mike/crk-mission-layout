@@ -4,20 +4,20 @@ const missions = [
         text:"Use your free daily roll!", rewards:100, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-solid fa-cube",
-        text:"Complete 5 CrumbSeeker Upgrade Missions!", rewards:100, count:5
+        type:1, difficulty:0,  icon:"fa-solid fa-gem",
+        text:"Make a 30-second long cutscene using the Sixth Soul Jam!", rewards:100, count:30
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Obtain 3 Cookies by BlueAquaCat", rewards:300, count:3
+        type:1, difficulty:1,  icon:"fa-solid fa-cake-candles",
+        text:"Bake 10 cakes at RoyalMike's Cake Shop!", rewards:300, count:10
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie whose main color palette is Pink and Green!!!", rewards:300, count:1
+        text:"Draw a Cookie whose main color palette is Red, White and Gold!!!", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Reach Wave 50 in Dungeon Survival", rewards:600, count:50
+        type:1, difficulty:2,  icon:"fa-solid fa-lock",
+        text:"Locked Mission, check back tomorrow!", rewards:0, count:0
     }
 ];
 
