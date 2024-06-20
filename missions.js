@@ -4,20 +4,20 @@ const missions = [
         text:"Use your free daily roll!", rewards:100, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-solid fa-gem",
-        text:"Make a 30-second long cutscene using the Sixth Soul Jam!", rewards:100, count:30
+        type:1, difficulty:0,  icon:"fa-brands fa-discord",
+        text:"Buy from someone's \"Your Shop\"!", rewards:100, count:1
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cake-candles",
-        text:"Bake 10 cakes at RoyalMike's Cake Shop!", rewards:300, count:10
+        type:1, difficulty:1,  icon:"fa-solid fa-cookie",
+        text:"Name at least 60 Cookies in RoyalMike's Cookie Challenge (Any)", rewards:300, count:60
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie whose main color palette is Red, White and Gold!!!", rewards:300, count:1
+        text:"Draw a Cookie whose main color palette is Purple and Blue!!!", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-lock",
-        text:"Locked Mission, check back tomorrow!", rewards:0, count:0
+        type:1, difficulty:2,  icon:"fa-solid fa-cake-candles",
+        text:"Make the world's reddest cake in RoyalMike's Holiday Cake Shop!", rewards:600, count:1
     }
 ];
 
