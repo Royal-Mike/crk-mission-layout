@@ -4,20 +4,20 @@ const missions = [
         text:"Use your free daily roll!", rewards:100, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Buy from someone's \"Your Shop\"!", rewards:100, count:1
+        type:1, difficulty:0,  icon:"fa-solid fa-palette",
+        text:"Doodle Royal Velvet Cookie!", rewards:100, count:1
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cookie",
-        text:"Name at least 60 Cookies in RoyalMike's Cookie Challenge (Any)", rewards:300, count:60
+        type:1, difficulty:1,  icon:"fa-solid fa-cake-candles",
+        text:"Make ten 5-heart Cake Orders from [OCs] in RoyalMike's Holiday Cake Shop!", rewards:300, count:10
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie whose main color palette is Purple and Blue!!!", rewards:300, count:1
+        text:"Draw a Cookie whose color palette is exclusively black OR yellow!!!!", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-cake-candles",
-        text:"Make the world's reddest cake in RoyalMike's Holiday Cake Shop!", rewards:600, count:1
+        type:1, difficulty:2,  icon:"fa-solid fa-bomb",
+        text:"Attempt to disarm a Bomb Gem!", rewards:600, count:1
     }
 ];
 
