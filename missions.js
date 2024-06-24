@@ -8,16 +8,16 @@ const missions = [
         text:"Doodle Royal Velvet Cookie!", rewards:100, count:1
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cake-candles",
-        text:"Make ten 5-heart Cake Orders from [OCs] in RoyalMike's Holiday Cake Shop!", rewards:300, count:10
+        type:1, difficulty:1,  icon:"fa-brands fa-discord",
+        text:"Buy from someone's \"Your Shop\"!", rewards:300, count:1
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie whose color palette is exclusively black OR yellow!!!!", rewards:300, count:1
+        type:1, difficulty:1,  icon:"fa-brands fa-discord",
+        text:"Spend some Life Torches! (Bonus Dice, Blast, Giant Potion not included)", rewards:300, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-bomb",
-        text:"Attempt to disarm a Bomb Gem!", rewards:600, count:1
+        type:1, difficulty:2,  icon:"fa-solid fa-palette",
+        text:"Draw a Cookie for each color of the rainbow!!", rewards:600, count:7
     }
 ];
 
