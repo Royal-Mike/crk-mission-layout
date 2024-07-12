@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:0, difficulty:0, icon:"fa-solid fa-dice",
-        text:"Use your free daily roll!", rewards:100, count:1
+        type:1, difficulty:0, icon:"fa-solid fa-cake-candles",
+        text:"Make 5 cakes in the Holiday Cake Shop!", rewards:300, count:5
     },
     {
-        type:1, difficulty:0,  icon:"fa-solid fa-palette",
-        text:"Doodle Royal Velvet Cookie!", rewards:100, count:1
+        type:1, difficulty:0,  icon:"fa-brands fa-discord",
+        text:"Thank a Moderator/Trusted for their hard work!", rewards:300, count:1
     },
     {
-        type:1, difficulty:1,  icon:"fa-brands fa-discord",
-        text:"Buy from someone's \"Your Shop\"!", rewards:300, count:1
+        type:1, difficulty:1,  icon:"fa-solid fa-cube",
+        text:"Play CrumbSeeker for 15 minutes!", rewards:750, count:15
     },
     {
-        type:1, difficulty:1,  icon:"fa-brands fa-discord",
-        text:"Spend some Life Torches! (Bonus Dice, Blast, Giant Potion not included)", rewards:300, count:1
+        type:1, difficulty:1,  icon:"fa-solid fa-cube",
+        text:"Practice coding a Custom Effect! (Submission Optional)", rewards:750, count:1
     },
     {
         type:1, difficulty:2,  icon:"fa-solid fa-palette",
-        text:"Draw a Cookie for each color of the rainbow!!", rewards:600, count:7
+        text:"Draw fan-art for a friend!", rewards:1000, count:1
     }
 ];
 

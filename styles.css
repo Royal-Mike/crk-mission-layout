@@ -37,7 +37,7 @@ body {
 }
 
 .color_overlay {
-    background: rgb(76, 93, 0);
+    background: rgb(93, 51, 0);
     mix-blend-mode: color;
 }
 
@@ -52,7 +52,7 @@ body {
     padding-right: 30px;
     color: white;
     font-style: italic;
-    background-image: linear-gradient(to top, rgb(48, 151, 0), rgb(48, 151, 0));
+    background-image: linear-gradient(to top, rgb(151, 55, 0), rgb(151, 55, 0));
     background-clip: text;
     -webkit-background-clip: text;
     align-self: flex-start;
@@ -63,9 +63,9 @@ h1.text_title {
     font-weight: bold;
     -webkit-text-stroke: 10px transparent;
     text-shadow:
-        0 7px rgb(48, 151, 0),
-        2px 7px rgb(48, 151, 0),
-        -2px 7px rgb(48, 151, 0);
+        0 7px rgb(151, 55, 0),
+        2px 7px rgb(151, 55, 0),
+        -2px 7px rgb(151, 55, 0);
 }
 
 h3.text_title {
@@ -138,8 +138,8 @@ h3.text_title.package {
 }
 
 .cookie[data-cookie="3"] {
-    width: 500px;
-    top: -100px;
+    width: 400px;
+    top: -50px;
     right: 200px;
 }
 
