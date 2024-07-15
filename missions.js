@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:1, difficulty:0, icon:"fa-solid fa-cake-candles",
-        text:"Make 5 cakes in the Holiday Cake Shop!", rewards:300, count:5
+        type:1, difficulty:0, icon:"fa-solid fa-gem",
+        text:"Make a Cookie with 3 separate expressions in the Sixth Soul Jam!", rewards:300, count:3
     },
     {
         type:1, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Thank a Moderator/Trusted for their hard work!", rewards:300, count:1
+        text:"Buy a Lucky Bear!", rewards:300, count:1
+    },
+    {
+        type:1, difficulty:1,  icon:"fa-solid fa-cake-candles",
+        text:"Earn 10 5-heart reviews in a row in the Holiday Cake Shop", rewards:750, count:10
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Play CrumbSeeker for 15 minutes!", rewards:750, count:15
+        text:"Add 3 relationships to your CrumbSeeker Cookies", rewards:750, count:3
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Practice coding a Custom Effect! (Submission Optional)", rewards:750, count:1
-    },
-    {
-        type:1, difficulty:2,  icon:"fa-solid fa-palette",
-        text:"Draw fan-art for a friend!", rewards:1000, count:1
+        type:1, difficulty:2,  icon:"fa-solid fa-cube",
+        text:"Sketch a Cookie OC based on the following word: \"Skull\"", rewards:1000, count:1
     }
 ];
 
