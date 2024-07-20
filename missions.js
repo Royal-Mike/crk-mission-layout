@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:1, difficulty:0, icon:"fa-solid fa-gem",
-        text:"Make a Cookie with 3 separate expressions in the Sixth Soul Jam!", rewards:300, count:3
+        type:1, difficulty:0, icon:"fa-solid fa-cookie",
+        text:"Reach a score of 650 million or higher in any game mode in CookieRun: Ovenbreak!", rewards:300, count:650
     },
     {
-        type:1, difficulty:0,  icon:"fa-brands fa-discord",
-        text:"Buy a Lucky Bear!", rewards:300, count:1
+        type:1, difficulty:0, icon:"fa-solid fa-headphones",
+        text:"Reach a score of 20 or higher in any CookieWare Stage!", rewards:300, count:20
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cake-candles",
-        text:"Earn 10 5-heart reviews in a row in the Holiday Cake Shop", rewards:750, count:10
+        type:1, difficulty:1, icon:"fa-solid fa-cube",
+        text:"Collect every new Cookie from the 2.2.1 Patch Notes in CrumbSeeker!", rewards:750, count:21
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-cube",
-        text:"Add 3 relationships to your CrumbSeeker Cookies", rewards:750, count:3
+        type:1, difficulty:1, icon:"fa-solid fa-cube",
+        text:"Add a Super Epic Costume to one of your Cookies", rewards:750, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-cube",
-        text:"Sketch a Cookie OC based on the following word: \"Skull\"", rewards:1000, count:1
+        type:1, difficulty:2, icon:"fa-solid fa-cookie",
+        text:"Name every OvenBreak Cookie in Cookie Challenge in under 4 minutes!", rewards:1000, count:206
     }
 ];
 
