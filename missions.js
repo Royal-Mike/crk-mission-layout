@@ -1,23 +1,23 @@
 const missions = [
     {
         type:1, difficulty:0, icon:"fa-solid fa-cookie",
-        text:"Reach a score of 650 million or higher in any game mode in CookieRun: Ovenbreak!", rewards:300, count:650
+        text:"Reach a score of 10M or higher in CRK's Error Busters", rewards:300, count:10
     },
     {
-        type:1, difficulty:0, icon:"fa-solid fa-headphones",
-        text:"Reach a score of 20 or higher in any CookieWare Stage!", rewards:300, count:20
+        type:1, difficulty:0,  icon:"fa-solid fa-lightbulb",
+        text:"Make an OvenBreak skill concept for one of your Cookie OCs!", rewards:300, count:1
     },
     {
-        type:1, difficulty:1, icon:"fa-solid fa-cube",
-        text:"Collect every new Cookie from the 2.2.1 Patch Notes in CrumbSeeker!", rewards:750, count:21
+        type:1, difficulty:1,  icon:"fa-solid fa-gem",
+        text:"Make an SSJ cutscene involving Fire Spirit Cookie, Strawberry Stick Cookie and Cream Ferret Cookie!", rewards:750, count:1
     },
     {
-        type:1, difficulty:1, icon:"fa-solid fa-cube",
-        text:"Add a Super Epic Costume to one of your Cookies", rewards:750, count:1
+        type:1, difficulty:1,  icon:"fa-solid fa-palette",
+        text:"Make a collab artwork with another CRT artist!", rewards:750, count:1
     },
     {
-        type:1, difficulty:2, icon:"fa-solid fa-cookie",
-        text:"Name every OvenBreak Cookie in Cookie Challenge in under 4 minutes!", rewards:1000, count:206
+        type:1, difficulty:2,  icon:"fa-solid fa-cookie",
+        text:"Name every Kingdom Cookie in Cookie Challenge in under 6 minutes!", rewards:1000, count:129
     }
 ];
 
