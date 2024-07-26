@@ -1,23 +1,23 @@
 const missions = [
     {
-        type:1, difficulty:0, icon:"fa-solid fa-cookie",
-        text:"Reach a score of 10M or higher in CRK's Error Busters", rewards:300, count:10
+        type:1, difficulty:0, icon:"fa-brands fa-discord",
+        text:"Last set of missions! Ping @lemonsoda for some free Cheese Cubes!", rewards:300, count:1
     },
     {
-        type:1, difficulty:0,  icon:"fa-solid fa-lightbulb",
-        text:"Make an OvenBreak skill concept for one of your Cookie OCs!", rewards:300, count:1
+        type:1, difficulty:0,  icon:"fa-solid fa-crown",
+        text:"Make a Kingdom skill concept for one of your Cookie OCs!", rewards:300, count:1
     },
     {
         type:1, difficulty:1,  icon:"fa-solid fa-gem",
-        text:"Make an SSJ cutscene involving Fire Spirit Cookie, Strawberry Stick Cookie and Cream Ferret Cookie!", rewards:750, count:1
+        text:"Make an SSJ cutscene involving an OC made by Parasol, Sugar Skull and LemonSoda☆!", rewards:750, count:1
     },
     {
-        type:1, difficulty:1,  icon:"fa-solid fa-palette",
-        text:"Make a collab artwork with another CRT artist!", rewards:750, count:1
+        type:1, difficulty:1,  icon:"fa-solid fa-cube",
+        text:"Submit a Cookie to CrumbSeeker!", rewards:750, count:1
     },
     {
-        type:1, difficulty:2,  icon:"fa-solid fa-cookie",
-        text:"Name every Kingdom Cookie in Cookie Challenge in under 6 minutes!", rewards:1000, count:129
+        type:1, difficulty:2,  icon:"fa-solid fa-palette",
+        text:"Make a collaborative artwork with 3 other artists!", rewards:1000, count:1
     }
 ];
 
