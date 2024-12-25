@@ -25,7 +25,7 @@ const packages = [
     },
 ];
 
-const current = packages[0];
+const current = packages[3];
 
 $(".background").css("background-image", `url(images/${current.background}.png)`);
 $("h1").text(current.name);
