@@ -12,20 +12,20 @@ const packages = [
         footer:"Use the <span class='discord_mention'>em/pay</span> command in <span class='discord_mention'>#crumbtalk</span> to pay for this package."
     },
     {
-        name:"Premium Holiday Package", note:"Add Dungeon Movesets to CrumbSeeker Cookies with this package!",
-        background:"holidays/background2", cookie:"cookie2", currency:"token", price:"100",
+        name:"Premium Holiday Package", note:"Add Dungeon Movesets to CrumbSeeker Cookies with this package!", width:"325px",
+        background:"holidays/background2", cookie:"cookie2", currency:"money", price:"5",
         r_vsc:3, r_medal:5, r_searing:2,
-        footer:"Use the <span class='discord_mention'>em/pay</span> command in <span class='discord_mention'>#crumbtalk</span> to pay for this package."
+        footer:"Donate to Mike's <span class='discord_mention'>Ko-fi</span>, then ping <span class='discord_mention'>@royalmike</span> in <span class='discord_mention'>#crumbtalk</span> to receive this package."
     },
     {
-        name:"Bribe Package", note:"Receive more rewards for bribing!", width:"325px",
+        name:"Artistic Package", note:"Draw an art to receive awesome gifts!", width:"325px",
         background:"holidays/background3", cookie:"cookie3", currency:"art", price:"1",
         r_cube:2, r_vsc:2, r_special:1,
         footer:"Submit to the <span class='discord_mention'>Fan-Art Box</span>, then ping <span class='discord_mention'>@royalmike</span> in <span class='discord_mention'>#crumbtalk</span> to receive this package."
     },
 ];
 
-const current = packages[3];
+const current = packages[1];
 
 $(".background").css("background-image", `url(images/${current.background}.png)`);
 $("h1").text(current.name);
