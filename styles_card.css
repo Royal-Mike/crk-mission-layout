@@ -48,6 +48,13 @@ body {
     overflow: hidden;
 }
 
+.id {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .content {
     width: 90%;
     background: rgba(0, 0, 0, 0.7);
@@ -57,8 +64,8 @@ body {
 }
 
 .content.name {
-    margin-top: 30px;
-    height: 100px;
+    margin-top: 20px;
+    height: 110px;
     font-size: 60px;
 }
 
@@ -68,6 +75,26 @@ body {
     height: 350px;
     font-size: 30px;
     line-height: 40px;
+}
+
+.text_orange {
+    color: orange;
+}
+
+.text_blue {
+    color: rgb(77, 172, 255);
+}
+
+.text_green {
+    color: lime;
+}
+
+.text_yellow {
+    color: yellow;
+}
+
+.text_gray {
+    color: gray;
 }
 
 .tags {
@@ -102,11 +129,20 @@ body {
     color: white;
 }
 
-.tag.gadget {
-    background-color: white;
+.tag.sigil {
+    background-color: rgb(255, 255, 255);
 }
 
-.tag.item {
+.tag.charm {
     background-color: #666666;
+    color: white;
+}
+
+.tag.auto {
+    background-color: rgb(134, 255, 106);
+}
+
+.tag.manual {
+    background-color: #8400ff;
     color: white;
 }
