@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: CookieRun;
+    src: url(fonts/cookie_run_bold.woff);
+}
+
+body {
+    font-family: CookieRun;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    background: green;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcol {
+    flex-direction: column;
+}
+
+.background {
+    background-image: url(friend_cards/fpvio_20250114233820.png);
+    background-size: auto 1042px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box {
+    position: relative;
+    margin-top: 100px;
+    width: 746px;
+    height: 1042px;
+    box-sizing: border-box;
+    border-top: 8px solid rgb(255, 255, 255, 0.5);
+    border-bottom: 8px solid rgb(0, 0, 0, 0.5);
+    border-left: 8px solid rgb(255, 255, 255, 0.5);
+    border-right: 8px solid rgb(0, 0, 0, 0.5);
+    outline: 10px solid black;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.content {
+    width: 90%;
+    background: rgba(0, 0, 0, 0.7);
+    border: 5px solid rgb(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+}
+
+.content.name {
+    margin-top: 30px;
+    height: 100px;
+    font-size: 60px;
+}
+
+.content.description {
+    margin-top: auto;
+    margin-bottom: 20px;
+    height: 350px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.tags {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tag {
+    margin: 0px 10px;
+    padding: 0px 50px;
+    padding-bottom: 6px;
+    border-radius: 30px;
+    box-shadow: inset 0px -6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 30px;
+}
+
+.tag.common {
+    background-color: #ffe382;
+}
+
+.tag.rare {
+    background-color: #82c0ff;
+}
+
+.tag.epic {
+    background-color: #ff82bd;
+}
+
+.tag.legendary {
+    background-color: #3d8978;
+    color: white;
+}
+
+.tag.gadget {
+    background-color: white;
+}
+
+.tag.item {
+    background-color: #666666;
+    color: white;
+}
