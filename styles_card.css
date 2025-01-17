@@ -33,17 +33,23 @@ body {
     background-position: center;
 }
 
-.box {
-    position: relative;
+.container {
     margin-top: 100px;
     width: 746px;
     height: 1042px;
+    padding: 10px;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     border-top: 8px solid rgb(255, 255, 255, 0.5);
     border-bottom: 8px solid rgb(0, 0, 0, 0.5);
     border-left: 8px solid rgb(255, 255, 255, 0.5);
     border-right: 8px solid rgb(0, 0, 0, 0.5);
-    outline: 10px solid black;
+    box-shadow: 0 0 0 10px black;
     justify-content: flex-start;
     overflow: hidden;
 }
@@ -72,7 +78,7 @@ body {
 .content.description {
     margin-top: auto;
     margin-bottom: 20px;
-    height: 350px;
+    height: 250px;
     font-size: 30px;
     line-height: 40px;
 }
@@ -95,6 +101,12 @@ body {
 
 .text_gray {
     color: gray;
+}
+
+.text_multiply {
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 145, 0);
 }
 
 .tags {
@@ -145,4 +157,10 @@ body {
 .tag.manual {
     background-color: #8400ff;
     color: white;
+}
+
+#save {
+    padding: 0 20px;
+    margin-top: 50px;
+    font-size: 50px;
 }
