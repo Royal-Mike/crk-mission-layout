@@ -52,7 +52,7 @@ const cards = [
     {id:"r10", rarity:"Rare", type:"Sigil", method:"Auto", name:"Endless Ascent", artist:"skooptroop",
     description:"[+5] Tokens whenever a !probability! fails"},
     {id:"r11", rarity:"Rare", type:"Sigil", method:"Auto", name:"System Override", artist:"_parasol",
-    description:"{Bribe Arts} give &X2& rewards"},
+    description:"{Bribe Arts} give &X2& rewards<br>[Deactivates] after [3] arts drawn"},
     // ----- EPIC -----
     {id:"e1", rarity:"Epic", type:"Charm", method:"Auto", name:"Family Portrait", artist:"artsy_the_ghost",
     description:"[+1] Version<br>//(turn off CrumbSeeker before using)//"},
@@ -65,18 +65,18 @@ const cards = [
     {id:"e5", rarity:"Epic", type:"Sigil", method:"Auto", name:"Masked Edge", artist:"skooptroop",
     description:"[+5] Tokens whenever a {Sigil} triggers"},
     {id:"e6", rarity:"Epic", type:"Sigil", method:"Auto", name:"Lazy Tactician", artist:"skooptroop",
-    description:"You can draw [anything] for {Bribe Art}<br>//(must still include Royal Velvet)//"},
+    description:"You can draw [anything] for {Bribe Art}<br>[Deactivates] after [5] arts drawn<br>//(must still include Royal Velvet)//"},
     // ----- LEGENDARY -----
     {id:"l1", rarity:"Legendary", type:"Charm", method:"Auto", name:"Abyssal Reflection", artist:"_parasol",
     description:"!1 in (50-Knowledge) chance!<br>for a #Gold Shop Pass#"},
     {id:"l2", rarity:"Legendary", type:"Charm", method:"Manual", name:"Celestial Grace", artist:"artsy_the_ghost",
     description:"Make your {HyperCubes} [Eternal],<br>or {V.S.C.s} [Frozen]"},
     {id:"l3", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Riverside Reverie", artist:"_parasol",
-    description:"All {Shop Items} are [halved] in price<br>and [bypass Knowledge]"},
+    description:"All {Shop Items} are [halved] in price<br>and [bypass Knowledge]<br>[Deactivates] after [3] Items bought"},
     {id:"l4", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Serene Indifference", artist:"artsy_the_ghost",
-    description:"All {Ko-fi Items} are [halved] in price"},
+    description:"All {Ko-fi Items} are [halved] in price<br>[Deactivates] after [3] Items bought"},
     {id:"l5", rarity:"Legendary", type:"Sigil", method:"Manual", name:"The Demon's Trinket", artist:"skooptroop",
-    description:"After buying any {Shop Item},<br>you can choose to [lose all Tokens]<br>and receive a {HyperCube}"},
+    description:"After buying any {Shop Item},<br>[lose all Tokens] and receive a {HyperCube}<br>[Deactivates] after [3] HyperCubes"},
 ]
 
 function updateCard(index) {
