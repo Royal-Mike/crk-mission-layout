@@ -17,7 +17,7 @@ const cards = [
     {id:"c6", rarity:"Common", type:"Charm", method:"Auto", name:"Gentle Geist", artist:"skooptroop",
     description:"[+1] Token for each {card} in circulation<br>//(Max of [30])//"},
     {id:"c7", rarity:"Common", type:"Charm", method:"Auto", name:"Tidal Huntress", artist:"akkuma407",
-    description:"[+10] Tokens for each other {Charm}<br>, then [destroy] all Charms"},
+    description:"[+10] Tokens for each other {Charm},<br> then [destroy] all Charms"},
     {id:"c8", rarity:"Common", type:"Charm", method:"Manual", name:"Cozy Canine", artist:"akkuma407",
     description:"[+20] Tokens if you have at least<br>[9] Cookies in {CrumbSeeker}"},
     {id:"c9", rarity:"Common", type:"Charm", method:"Manual", name:"Silent Pearl", artist:"akkuma407",
