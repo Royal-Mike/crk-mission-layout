@@ -124,7 +124,7 @@ body {
     font-size: 30px;
 }
 
-.tag.common {
+.tag.common, .tag.rarity {
     background-color: #ffe382;
 }
 
@@ -141,7 +141,7 @@ body {
     color: white;
 }
 
-.tag.sigil {
+.tag.sigil, .tag.type {
     background-color: rgb(255, 255, 255);
 }
 
@@ -150,7 +150,7 @@ body {
     color: white;
 }
 
-.tag.auto {
+.tag.auto, .tag.method {
     background-color: rgb(134, 255, 106);
 }
 

@@ -2,6 +2,8 @@ let index = 0;
 
 const cards = [
     // ----- COMMON -----
+    {id:"id", rarity:"Rarity", type:"Type", method:"Method", name:"Card Name",
+    description:"Card Effect"},
     {id:"c1", rarity:"Common", type:"Charm", method:"Auto", name:"Sleepy Squid",
     description:"[+5] Tokens"},
     {id:"c2", rarity:"Common", type:"Charm", method:"Auto", name:"Shake of Discovery",
@@ -9,7 +11,7 @@ const cards = [
     {id:"c3", rarity:"Common", type:"Charm", method:"Auto", name:"Tiny Couture",
     description:"!1 in 15 chance! for [+1] Pass<br>!1 in 20 chance! for [+1] Gem"},
     {id:"c4", rarity:"Common", type:"Charm", method:"Auto", name:"Java Circuit",
-    description:"[+1,000] Crumb Bytes<br>//(CrumbSeeker)//"},
+    description:"[+1,000] Crumb Bytes<br>//(turn off CrumbSeeker before using)//"},
     {id:"c5", rarity:"Common", type:"Charm", method:"Auto", name:"Autumn Delights",
     description:"[+0-30] Tokens"},
     {id:"c6", rarity:"Common", type:"Charm", method:"Auto", name:"Gentle Geist",
@@ -34,12 +36,12 @@ const cards = [
     {id:"r2", rarity:"Rare", type:"Charm", method:"Auto", name:"Fizzy Roar",
     description:"Create a [random] {Charm}<br>//(must have room)//"},
     {id:"r3", rarity:"Rare", type:"Charm", method:"Auto", name:"Heavenly Stare",
-    description:"[+1] Medal<br>//(CrumbSeeker)//"},
+    description:"[+1] Medal<br>//(turn off CrumbSeeker before using)//"},
     {id:"r4", rarity:"Rare", type:"Charm", method:"Auto", name:"Bubbly Performance",
     description:"[+2] Tokens for each<br>{CrumbSeeker Title} you have<br>//(Max of [50])//"},
-    {id:"r5", rarity:"Epic", type:"Charm", method:"Auto", name:"Another Day",
+    {id:"r5", rarity:"Rare", type:"Charm", method:"Auto", name:"Another Day",
     description:"If you also own {Another Night},<br>[+1] HyperCube and [destroy] both Charms"},
-    {id:"r6", rarity:"Epic", type:"Charm", method:"Auto", name:"Another Night",
+    {id:"r6", rarity:"Rare", type:"Charm", method:"Auto", name:"Another Night",
     description:"If you also own {Another Day},<br>[+1] V.S.C. and [destroy] both Charms"},
     {id:"r7", rarity:"Rare", type:"Sigil", method:"Auto", name:"Infernal Majesty",
     description:"&X1.5& CrumbEconomy rewards from {Charms}"},
@@ -53,7 +55,7 @@ const cards = [
     description:"{Bribe Arts} give &X2& rewards"},
     // ----- EPIC -----
     {id:"e1", rarity:"Epic", type:"Charm", method:"Auto", name:"Family Portrait",
-    description:"[+1] Version<br>//(CrumbSeeker)//"},
+    description:"[+1] Version<br>//(turn off CrumbSeeker before using)//"},
     {id:"e2", rarity:"Epic", type:"Charm", method:"Auto", name:"Sea of Solitude",
     description:"!1 in 10 chance! for [+1] HyperCube<br>!1 in 20 chance! for [+1] V.S.C."},
     {id:"e3", rarity:"Epic", type:"Charm", method:"Manual", name:"Couch Surfing",
