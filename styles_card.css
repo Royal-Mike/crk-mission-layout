@@ -76,11 +76,19 @@ body {
 }
 
 .content.description {
+    position: relative;
     margin-top: auto;
     margin-bottom: 20px;
     height: 250px;
     font-size: 30px;
     line-height: 40px;
+}
+
+.content.description > p:last-child {
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .text_orange {
