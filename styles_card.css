@@ -111,6 +111,10 @@ body {
     color: gray;
 }
 
+.text_red {
+    color: palevioletred;
+}
+
 .text_multiply {
     padding: 0 10px;
     border-radius: 10px;
