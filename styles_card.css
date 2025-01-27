@@ -171,6 +171,11 @@ body {
     color: white;
 }
 
+.tag.locked {
+    background-color: gray;
+    color: gray;
+}
+
 #save {
     padding: 0 20px;
     margin-top: 50px;

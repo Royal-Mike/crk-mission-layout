@@ -4,6 +4,8 @@ const cards = [
     // ----- COMMON -----
     {id:"_id", rarity:"Rarity", type:"Type", method:"Method", name:"Card Name", artist:"Artist",
     description:"Card Effect"},
+    {id:"_locked", rarity:"Locked", type:"Locked", method:"Locked", name:"", artist:"",
+    description:""},
     {id:"C1", rarity:"Common", type:"Charm", method:"Auto", name:"Sleepy Squid", artist:"akkuma407",
     description:"[+10] Tokens"},
     {id:"C2", rarity:"Common", type:"Charm", method:"Auto", name:"Shake of Discovery", artist:"tamari108",
@@ -25,7 +27,7 @@ const cards = [
     {id:"C10", rarity:"Common", type:"Charm", method:"Auto", name:"Lil' Appy", artist:"skooptroop",
     description:"[+2] Tokens for each of your {Friend Hearts}<br>//(Max of [30])//"},
     {id:"C11", rarity:"Common", type:"Charm", method:"Auto", name:"Comforting Company", artist:"artsy_the_ghost",
-    description:"[+1] Token for each {Friend Heart}<br>in circulation<br>//(Max of [30])//"},
+    description:"[+1] Token for every [10] {Friend Hearts}<br>in circulation<br>//(Max of [30])//"},
     {id:"C12", rarity:"Common", type:"Sigil", method:"Auto", name:"Rock Sugar", artist:"artsy_the_ghost",
     description:"!1 in 20 chance! for [+1] Gem<br>after using a {Common Charm}"},
     {id:"C13", rarity:"Common", type:"Sigil", method:"Auto", name:"Lazy Waves", artist:"skooptroop",
@@ -119,13 +121,13 @@ function updateCard(index) {
     $(".content.description > p:last-child").html("Artwork by @" + card.artist);
 
     $(".tag").eq(0).text(card.rarity);
-    $(".tag").eq(0).removeClass("common rare epic legendary").addClass(card.rarity.toLowerCase());
+    $(".tag").eq(0).removeClass("common rare epic legendary locked").addClass(card.rarity.toLowerCase());
 
     $(".tag").eq(1).text(card.type);
-    $(".tag").eq(1).removeClass("sigil charm").addClass(card.type.toLowerCase());
+    $(".tag").eq(1).removeClass("sigil charm locked").addClass(card.type.toLowerCase());
 
     $(".tag").eq(2).text(card.method);
-    $(".tag").eq(2).removeClass("auto manual").addClass(card.method.toLowerCase());
+    $(".tag").eq(2).removeClass("auto manual locked").addClass(card.method.toLowerCase());
 }
 
 updateCard(index);
