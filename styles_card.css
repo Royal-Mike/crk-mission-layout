@@ -88,6 +88,7 @@ body {
     position: absolute;
     bottom: 5px;
     font-size: 20px;
+    line-height: 25px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -150,6 +151,11 @@ body {
 
 .tag.legendary {
     background-color: #3d8978;
+    color: white;
+}
+
+.tag.special {
+    background-color: #ff6f00;
     color: white;
 }
 

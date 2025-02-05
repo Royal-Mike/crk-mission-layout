@@ -1,4 +1,4 @@
-let index = 0;
+let index = 45;
 
 const cards = [
     // ----- COMMON -----
@@ -99,6 +99,9 @@ const cards = [
     description:"All {Shop Items} are [50%] off<br>and [bypass Knowledge]<br>//~Deactivates~ after [3] Items bought//"},
     {id:"L6", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Serene Indifference", artist:"artsy_the_ghost",
     description:"All {Ko-fi Items} are [50%] off<br>//~Deactivates~ after [3] Items bought//"},
+    // ----- SPECIAL -----
+    {id:"S1", rarity:"Special", type:"Charm", method:"Auto", name:"Hiring Help", artist:"lemonsoda<br>This card is only usable during Feb 5th - Feb 25th 2025",
+    description:"Summon [LemonSoda] to chat in your<br>team's respective {Tri-Choice Chat}<br>until a different team calls him over<br>&nbsp;"},
 ]
 
 function updateCard(index) {
@@ -121,7 +124,7 @@ function updateCard(index) {
     $(".content.description > p:last-child").html("Artwork by @" + card.artist);
 
     $(".tag").eq(0).text(card.rarity);
-    $(".tag").eq(0).removeClass("common rare epic legendary locked").addClass(card.rarity.toLowerCase());
+    $(".tag").eq(0).removeClass("common rare epic legendary special locked").addClass(card.rarity.toLowerCase());
 
     $(".tag").eq(1).text(card.type);
     $(".tag").eq(1).removeClass("sigil charm locked").addClass(card.type.toLowerCase());
