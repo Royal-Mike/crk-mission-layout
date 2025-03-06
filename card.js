@@ -1,4 +1,4 @@
-let index = 0;
+let index = 50;
 
 const cards = [
     // ----- COMMON -----
@@ -118,6 +118,8 @@ const cards = [
     // ----- SPECIAL -----
     {id:"S1", rarity:"Special", type:"Charm", method:"Auto", name:"Hiring Help", artist:"lemonsoda<br>This card is only usable during Feb 5th - Feb 25th 2025",
     description:"Summon [LemonSoda] to chat in your<br>team's respective {Tri-Choice Chat}<br>until a different team calls him over<br>&nbsp;"},
+    {id:"S2", rarity:"Special", type:"Charm", method:"Auto", name:"Am I Quirky Doe?", artist:"lemonsoda<br>This card is only usable during March 2025",
+    description:"Automatically [complete] all 3 Missions<br>during a round of {Cookie Detective}"},
 ]
 
 function updateCard(index) {
