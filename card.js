@@ -1,4 +1,4 @@
-let index = 50;
+let index = 0;
 
 const cards = [
     // ----- COMMON -----
@@ -23,7 +23,7 @@ const cards = [
     {id:"C8", rarity:"Common", type:"Charm", method:"Auto", name:"Cozy Canine", artist:"akkuma407",
     description:"[+20] Tokens if you have less than<br>[90] Tokens"},
     {id:"C9", rarity:"Common", type:"Charm", method:"Auto", name:"Silent Pearl", artist:"akkuma407",
-    description:"[+1] Gem if you have [0] Gems and [0] Passes"},
+    description:"[+1] Gem if you have [0] Gems<br>[+1] Pass if you have [0] Passes"},
     {id:"C10", rarity:"Common", type:"Charm", method:"Auto", name:"Lil' Appy", artist:"skooptroop",
     description:"[+1] Token for each of your {Friend Hearts}<br>//(Max of [30])//"},
     {id:"C11", rarity:"Common", type:"Charm", method:"Auto", name:"Comforting Company", artist:"artsy_the_ghost",
@@ -44,7 +44,7 @@ const cards = [
     description:"[+30] Tokens<br>[-5] Tokens for each of your {Sigils}<br>//(Max of [-25])//"},
     {id:"C19", rarity:"Common", type:"Charm", method:"Auto", name:"Last Dawn", artist:"messyslimey",
     description:"[+5] Tokens for each {empty} card slot<br>//(Max of [50])//"},
-    {id:"C20", rarity:"Common", type:"Charm", method:"Auto", name:"Ovenborn Wanderer", artist:"pavnobal",
+    {id:"C20", rarity:"Common", type:"Charm", method:"Auto", name:"Stray Doodle", artist:"pavnobal",
     description:"Receive the [total] {sell value} of your cards<br>//(Max of [50])//"},
     // ----- RARE -----
     {id:"R1", rarity:"Rare", type:"Charm", method:"Auto", name:"Gooey Gaze", artist:"_parasol",
@@ -67,12 +67,12 @@ const cards = [
     description:"&X2& all !listed probabilities!"},
     {id:"R10", rarity:"Rare", type:"Sigil", method:"Auto", name:"Endless Ascent", artist:"skooptroop",
     description:"[+5] Tokens whenever a !probability! fails"},
-    {id:"R11", rarity:"Rare", type:"Sigil", method:"Auto", name:"System Override", artist:"_parasol",
-    description:"You can claim &X2& rewards for {Bribe Arts}<br>//~Deactivates~ after [3] claims//"},
+    {id:"R11", rarity:"Rare", type:"Charm", method:"Manual", name:"System Override", artist:"_parasol",
+    description:"&X2& next {Bribe Art}'s rewards"},
     {id:"R12", rarity:"Rare", type:"Charm", method:"Auto", name:"Silent Watcher", artist:"skooptroop",
     description:"[+1] {Special Badge}<br>[-50] Tokens"},
     {id:"R13", rarity:"Rare", type:"Charm", method:"Manual", name:"Call for Help", artist:"dakotaspine",
-    description:"Receive &X0.5& of [1st Place Rewards] for<br>your last participated {Casual Event}"},
+    description:"Receive &X0.5& Tokens of [1st Place Rewards]<br>for your last participated {Casual Event}"},
     {id:"R14", rarity:"Rare", type:"Sigil", method:"Auto", name:"Little Big Planet", artist:"tamari108",
     description:"Transform next [given] card into<br>a random {Epic} Friend Card<br>~Self-destructs~"},
     {id:"R15", rarity:"Rare", type:"Charm", method:"Manual", name:"Ashen Oath", artist:"melon8668",
@@ -89,7 +89,7 @@ const cards = [
     {id:"E5", rarity:"Epic", type:"Sigil", method:"Auto", name:"Masked Edge", artist:"skooptroop",
     description:"[+5] Tokens whenever a {Sigil} triggers"},
     {id:"E6", rarity:"Epic", type:"Sigil", method:"Auto", name:"Lazy Tactician", artist:"skooptroop",
-    description:"You can claim [Bribe Rewards]<br>when drawing {Royal Velvet fan-arts}<br>//~Deactivates~ after [5] claims//"},
+    description:"You can claim [Bribe Rewards]<br>for any {Royal Velvet fan-arts}<br>//~Deactivates~ after [3] claims//"},
     {id:"E7", rarity:"Epic", type:"Charm", method:"Auto", name:"Vengeful Serpent", artist:"anon_serenade",
     description:"Create three [random] {cards} of any Rarity<br>//(must have room)//"},
     {id:"E8", rarity:"Epic", type:"Charm", method:"Auto", name:"Fire Write", artist:"skooptroop",
