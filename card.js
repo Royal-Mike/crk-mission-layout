@@ -1,4 +1,4 @@
-let index = 0;
+let index = 51;
 
 const cards = [
     // ----- COMMON -----
@@ -46,6 +46,26 @@ const cards = [
     description:"[+5] Tokens for each {empty} card slot<br>//(Max of [50])//"},
     {id:"C20", rarity:"Common", type:"Charm", method:"Auto", name:"Stray Doodle", artist:"pavnobal",
     description:"Receive the [total] {sell value} of your cards<br>//(Max of [50])//"},
+    {id:"C21", rarity:"Common", type:"Charm", method:"Auto", name:"Happiest Day", artist:"artymuffin",
+    description:"[+1] Token for each of your Cookies<br>with [100] {Affection} or more<br>//(Max of [30])//"},
+    {id:"C22", rarity:"Common", type:"Charm", method:"Auto", name:"Forsaken Formula", artist:"_parasol",
+    description:"&X5& next [sold] card's {sell value}<br>~Self-destructs~"},
+    {id:"C23", rarity:"Common", type:"Charm", method:"Auto", name:"Good Haul", artist:"artymuffin",
+    description:"[+5] Tokens<br>!1 in 2 chance! to gain another [copy]<br>//Probability cannot be increased//"},
+    {id:"C24", rarity:"Common", type:"Charm", method:"Auto", name:"Endless Summer", artist:".r717",
+    description:"[+10] Tokens for each of your {Sigils}<br>//(Max of [30])//"},
+    {id:"C25", rarity:"Common", type:"Charm", method:"Auto", name:"Friends Forever", artist:"tamari108",
+    description:"[+1] Token for each of your {CrumbFriends}"},
+    {id:"C26", rarity:"Common", type:"Charm", method:"Auto", name:"Coral Warden", artist:"messyslimey",
+    description:"!1 in 25 chance! for [+1] V.S.C."},
+    {id:"C27", rarity:"Common", type:"Charm", method:"Auto", name:"Flour and Fire", artist:"artymuffin",
+    description:"Transform all your cards into<br>[random] cards of the same {Rarity}"},
+    {id:"C28", rarity:"Common", type:"Charm", method:"Manual", name:"Watchful Gaze", artist:"blueaquacat",
+    description:"Receive the last {Common Charm}<br>used by another player"},
+    {id:"C29", rarity:"Common", type:"Sigil", method:"Auto", name:"Quiet Roads", artist:"messyslimey",
+    description:"[+10] Tokens when you use a {Charm}<br>~Self-destructs~ when a {Sigil} triggers<br>//Quiet Roads excluded//"},
+    {id:"C30", rarity:"Common", type:"Sigil", method:"Auto", name:"Boundless Enthusiasm", artist:"shiningsea613",
+    description:"Prevent a {Sigil} from [self-destructing]<br>~Self-destructs~"},
     // ----- RARE -----
     {id:"R1", rarity:"Rare", type:"Charm", method:"Auto", name:"Gooey Gaze", artist:"_parasol",
     description:"Create a [random] {Sigil} of any Rarity<br>//(must have room)//"},
@@ -54,7 +74,7 @@ const cards = [
     {id:"R3", rarity:"Rare", type:"Charm", method:"Auto", name:"Heavenly Stare", artist:"melon8668",
     description:"[+1] Medal<br>//(turn off CrumbSeeker before using)//"},
     {id:"R4", rarity:"Rare", type:"Charm", method:"Auto", name:"Bubbly Performance", artist:"skooptroop",
-    description:"[+2] Tokens for each of your {Titles}<br>//(Max of [50])//"},
+    description:"[+2] Tokens for each of your {CrumbTitles}<br>//(Max of [50])//"},
     {id:"R5", rarity:"Rare", type:"Charm", method:"Auto", name:"Another Day", artist:"_parasol",
     description:"If you also own {Another Night},<br>[+50] Tokens and ~destroy~ both Charms"},
     {id:"R6", rarity:"Rare", type:"Charm", method:"Auto", name:"Another Night", artist:"_parasol",
@@ -74,7 +94,7 @@ const cards = [
     {id:"R13", rarity:"Rare", type:"Charm", method:"Manual", name:"Call for Help", artist:"dakotaspine",
     description:"Receive &X0.5& Tokens of [1st Place Rewards]<br>for your last participated {Casual Event}"},
     {id:"R14", rarity:"Rare", type:"Sigil", method:"Auto", name:"Little Big Planet", artist:"tamari108",
-    description:"Transform next [given] card into<br>a random {Epic} Friend Card<br>~Self-destructs~"},
+    description:"Transform your next [given] card<br>into a random {Epic} Friend Card<br>~Self-destructs~"},
     {id:"R15", rarity:"Rare", type:"Charm", method:"Manual", name:"Ashen Oath", artist:"melon8668",
     description:"Randomize your [Token Rewards]<br>for the current {Monthly Event}<br>between &X0.5& and &X2&"},
     // ----- EPIC -----
@@ -115,6 +135,10 @@ const cards = [
     description:"~Reactivate~ up to 3 [Deactivated] {Sigils}"},
     {id:"L8", rarity:"Legendary", type:"Charm", method:"Manual", name:"Forgotten Code", artist:".r717",
     description:"Create a {discovered} card of [your choice]"},
+    {id:"L9", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Frightened Angel", artist:"pavnobal",
+    description:"All {Dungeon Seeking Items} are [100%] off<br>//~Deactivates~ after [2] V.S.C.s bought//"},
+    {id:"L10", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Eternal Festival", artist:"pavnobal",
+    description:"All your {HyperCubes} are {Eternal}<br>and each of them can be used [twice]<br>//~Deactivates~ after [5] Cubes used//"},
     // ----- SPECIAL -----
     {id:"S1", rarity:"Special", type:"Charm", method:"Auto", name:"Hiring Help", artist:"lemonsoda<br>This card is only usable during Feb 5th - Feb 25th 2025",
     description:"Summon [LemonSoda] to chat in your<br>team's respective {Tri-Choice Chat}<br>until a different team calls him over<br>&nbsp;"},
