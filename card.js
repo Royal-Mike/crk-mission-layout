@@ -1,4 +1,4 @@
-let index = 51;
+let index = 21;
 
 const cards = [
     // ----- COMMON -----
@@ -48,7 +48,7 @@ const cards = [
     description:"Receive the [total] {sell value} of your cards<br>//(Max of [50])//"},
     {id:"C21", rarity:"Common", type:"Charm", method:"Auto", name:"Happiest Day", artist:"artymuffin",
     description:"[+1] Token for each of your Cookies<br>with [100] {Affection} or more<br>//(Max of [30])//"},
-    {id:"C22", rarity:"Common", type:"Charm", method:"Auto", name:"Forsaken Formula", artist:"_parasol",
+    {id:"C22", rarity:"Common", type:"Sigil", method:"Auto", name:"Forsaken Formula", artist:"_parasol",
     description:"&X5& next [sold] card's {sell value}<br>~Self-destructs~"},
     {id:"C23", rarity:"Common", type:"Charm", method:"Auto", name:"Good Haul", artist:"artymuffin",
     description:"[+5] Tokens<br>!1 in 2 chance! to gain another [copy]<br>//Probability cannot be increased//"},
