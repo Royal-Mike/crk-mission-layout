@@ -143,7 +143,7 @@ const cards = [
     description:"!1 in 4 chance! for a #Gold Shop Pass#<br>//Guaranteed if you have [50+] Knowledge//"},
     {id:"L2", rarity:"Legendary", type:"Charm", method:"Auto", name:"The Demon's Trinket", artist:"skooptroop",
     description:"[+3] HyperCubes<br>Set {Tokens, Gems, Passes} to [0]"},
-    {id:"L3", rarity:"Legendary", type:"Charm", method:"Auto", name:"Celestial Grace", artist:"artsy_the_ghost",
+    {id:"L3", rarity:"Legendary", type:"Charm", method:"Manual", name:"Celestial Grace", artist:"artsy_the_ghost",
     description:"Next {Bribe Art} of any quality<br>covers all [extra charges] for a {V.S.C.}"},
     {id:"L4", rarity:"Legendary", type:"Charm", method:"Auto", name:"Sunlit Waitress", artist:"skooptroop",
     description:"Receive four [random] {Badges}<br>//Burning (65%), Searing (25%),<br>Special (9%), Honorary (1%)//"},
