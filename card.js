@@ -152,7 +152,7 @@ const cards = [
     {id:"L6", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Serene Indifference", artist:"artsy_the_ghost",
     description:"All {Ko-fi Items} are [50%] off<br>//~Deactivates~ after [3] items bought//"},
     {id:"L7", rarity:"Legendary", type:"Charm", method:"Manual", name:"Dragon's Soliloquy", artist:"akkuma407",
-    description:"&X2& all {values} on up to [2] of your cards"},
+    description:"&X2& all {listed values} on up to<br>[2] of your [Manual Charms]<br>//Each card may only be applied once//"},
     {id:"L8", rarity:"Legendary", type:"Charm", method:"Manual", name:"Forgotten Code", artist:".r717",
     description:"[Create] any {previously-owned} card"},
     {id:"L9", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Frightened Angel", artist:"pavnobal",
