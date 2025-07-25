@@ -1,4 +1,4 @@
-let index = 30;
+let index = 0;
 
 const cards = [
     // ----- COMMON -----
