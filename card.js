@@ -1,4 +1,4 @@
-let index = 65;
+let index = 30;
 
 const cards = [
     // ----- COMMON -----
@@ -66,6 +66,10 @@ const cards = [
     description:"[+10] Tokens when you use a {Charm}<br>~Self-destructs~ when a {Sigil} triggers<br>//Quiet Roads excluded//"},
     {id:"C30", rarity:"Common", type:"Sigil", method:"Auto", name:"Boundless Enthusiasm", artist:"shiningsea613",
     description:"Prevent a {Sigil} from [self-destructing]<br>~Self-destructs~"},
+    {id:"C31", rarity:"Common", type:"Charm", method:"Manual", name:"Tender Spark", artist:"skooptroop",
+    description:"Your next {Friend Pass Submission}<br>gives &X2& {Friend Hearts}"},
+    {id:"C32", rarity:"Common", type:"Charm", method:"Manual", name:"Patchwork of Love", artist:"akkuma407",
+    description:"Your next {Friend Pass Submission}<br>gives [+2] extra {Friend Hearts}"},
     // ----- RARE -----
     {id:"R1", rarity:"Rare", type:"Charm", method:"Auto", name:"Gooey Gaze", artist:"_parasol",
     description:"Create a [random] {Sigil} of any Rarity<br>//(must have room)//"},
@@ -92,7 +96,7 @@ const cards = [
     {id:"R12", rarity:"Rare", type:"Charm", method:"Auto", name:"Silent Watcher", artist:"skooptroop",
     description:"[+1] {Special Badge}<br>[-50] Tokens"},
     {id:"R13", rarity:"Rare", type:"Charm", method:"Manual", name:"Call for Help", artist:"dakotaspine",
-    description:"Receive &X0.5& Tokens of [1st Place Rewards]<br>for your last participated {Casual Event}"},
+    description:"Receive &X0.5& Tokens of [1st Place Rewards]<br>for your last participated {Side Event}"},
     {id:"R14", rarity:"Rare", type:"Sigil", method:"Auto", name:"Little Big Planet", artist:"tamari108",
     description:"Transform your next [given] card<br>into a random {Epic} Friend Card<br>~Self-destructs~"},
     {id:"R15", rarity:"Rare", type:"Charm", method:"Manual", name:"Ashen Oath", artist:"melon8668",
@@ -138,6 +142,8 @@ const cards = [
     description:"Receive [1st Place Rewards] for your<br>last participated {CrumbEvent}<br>if you ranked in {Last Place}"},
     {id:"E15", rarity:"Epic", type:"Sigil", method:"Auto", name:"SAVE State", artist:"skooptroop",
     description:"After using a {Charm}, gain that {Charm}<br>~Self-destructs~"},
+    {id:"E16", rarity:"Epic", type:"Sigil", method:"Auto", name:"Sleight of Fate", artist:"skooptroop",
+    description:"[Guarantee] the next !listed probability!<br>~Self-destructs~"},
     // ----- LEGENDARY -----
     {id:"L1", rarity:"Legendary", type:"Charm", method:"Auto", name:"Abyssal Reflection", artist:"_parasol",
     description:"!1 in 4 chance! for a #Gold Shop Pass#<br>//Guaranteed if you have [50+] Knowledge//"},
