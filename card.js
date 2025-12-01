@@ -1,4 +1,4 @@
-let index = 0;
+let index = 78;
 
 const cards = [
     // ----- COMMON -----
@@ -92,7 +92,7 @@ const cards = [
     {id:"R10", rarity:"Rare", type:"Sigil", method:"Auto", name:"Endless Ascent", artist:"skooptroop",
     description:"[+5] Tokens whenever a !probability! fails"},
     {id:"R11", rarity:"Rare", type:"Charm", method:"Manual", name:"System Override", artist:"_parasol",
-    description:"&X2& next {Bribe Art}'s rewards"},
+    description:"Add [Friend Card Rewards] (for you)<br>to your next participated {Side Event}<br>//1st = Epic, 2nd = Rare, 3rd+ = Common//"},
     {id:"R12", rarity:"Rare", type:"Charm", method:"Auto", name:"Silent Watcher", artist:"skooptroop",
     description:"[+1] {Special Badge}<br>[-50] Tokens"},
     {id:"R13", rarity:"Rare", type:"Charm", method:"Manual", name:"Call for Help", artist:"dakotaspine",
@@ -122,8 +122,8 @@ const cards = [
     description:"Gain a [copy] of last bought {Shop Item}"},
     {id:"E5", rarity:"Epic", type:"Sigil", method:"Auto", name:"Masked Edge", artist:"skooptroop",
     description:"[+5] Tokens whenever a {Sigil} triggers"},
-    {id:"E6", rarity:"Epic", type:"Sigil", method:"Auto", name:"Lazy Tactician", artist:"skooptroop",
-    description:"You can claim [Bribe Rewards]<br>for any {Royal Velvet fan-arts}<br>//~Deactivates~ after [3] claims//"},
+    {id:"E6", rarity:"Epic", type:"Charm", method:"Manual", name:"Lazy Tactician", artist:"skooptroop",
+    description:"You can [redo] one of Mike's<br>{Side Events} for full [rewards]<br>//Ranking rewards excluded//"},
     {id:"E7", rarity:"Epic", type:"Charm", method:"Auto", name:"Vengeful Serpent", artist:"anon_serenade",
     description:"Create three [random] {cards} of any Rarity<br>//(must have room)//"},
     {id:"E8", rarity:"Epic", type:"Charm", method:"Auto", name:"Fire Write", artist:"skooptroop",
@@ -150,7 +150,7 @@ const cards = [
     {id:"L2", rarity:"Legendary", type:"Charm", method:"Auto", name:"The Demon's Trinket", artist:"skooptroop",
     description:"[+3] HyperCubes<br>Set {Tokens, Gems, Passes} to [0]"},
     {id:"L3", rarity:"Legendary", type:"Charm", method:"Manual", name:"Celestial Grace", artist:"artsy_the_ghost",
-    description:"Next {Bribe Art} of any quality<br>covers all [extra charges] for a {V.S.C.}"},
+    description:"Cover all [extra charges] for a {V.S.C.}<br>if you joined Mike's {Ko-fi} [Membership]"},
     {id:"L4", rarity:"Legendary", type:"Charm", method:"Auto", name:"Sunlit Waitress", artist:"skooptroop",
     description:"Receive four [random] {Badges}<br>//Burning (65%), Searing (25%),<br>Special (9%), Honorary (1%)//"},
     {id:"L5", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Riverside Reverie", artist:"_parasol",
@@ -162,9 +162,9 @@ const cards = [
     {id:"L8", rarity:"Legendary", type:"Charm", method:"Manual", name:"Forgotten Code", artist:".r717",
     description:"[Create] any {previously-owned} card"},
     {id:"L9", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Frightened Angel", artist:"pavnobal",
-    description:"All {Dungeon Seeking Items} are [100%] off<br>//~Deactivates~ after [2] V.S.C.s bought//"},
+    description:"All [extra charges] for {V.S.Cs} or<br>{DIY Movesets} are [50%] less expensive<br>//~Deactivates~ after [2] Gems charged in total//"},
     {id:"L10", rarity:"Legendary", type:"Sigil", method:"Manual", name:"Eternal Festival", artist:"pavnobal",
-    description:"All your {Shop-bought} and {Bribed}<br>{HyperCubes} can be used [twice]<br>//~Deactivates~ after [5] Cubes used//"},
+    description:"All your {HyperCubes} won through<br>{CrumbEvents} can be used [twice]<br>//~Deactivates~ after [5] Cubes used//"},
     // ----- SPECIAL -----
     {id:"S1", rarity:"Special", type:"Charm", method:"Auto", name:"Hiring Help", artist:"lemonsoda<br>This card is only usable during Feb 5th - Feb 25th 2025",
     description:"Summon [LemonSoda] to chat in your<br>team's respective {Tri-Choice Chat}<br>until a different team calls him over<br>&nbsp;"},
