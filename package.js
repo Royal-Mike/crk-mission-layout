@@ -56,8 +56,9 @@ const packages = [
     {
         name:"Ko-fi Package",
         header:"Support Us!",
-        note:"This package costs real money to purchase,<br>but the rewards are great if you do decide to get it!",
-        footer:"Purchase this package by donating the price to Mike's <span class='discord_mention'>Ko-fi</span>.",
+        note:"Purchase this package if you're into Dungeon Movesets<br>and support us in the process to keep the game going!",
+        footer:"Purchase this package by <span class='discord_mention'>donating</span> the price to Mike's <span class='discord_mention'>Ko-fi</span>.",
+        notice:"3 per member (3/3)",
         background:"holidays/background3", cookie:"holidays/cookie3", currency:false, price:"$9.98", method4:true,
         colors:{
             header: "#ff943cff",
@@ -66,6 +67,7 @@ const packages = [
             }
         },
         details:[
+            {name:"Gems", image:"gem", count:2},
             {name:"V.S.C.s", image:"vsc", count:3},
             {name:"Searing Badge", image:"searing", count:1},
             {name:"Legendary Friend Card", image:"card_legendary", count:1}
