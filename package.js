@@ -72,6 +72,27 @@ const packages = [
             {name:"Searing Badge", image:"searing", count:1},
             {name:"Legendary Friend Card", image:"card_legendary", count:1}
         ]
+    },
+    {
+        name:"Oldbie Discount",
+        header:"why did i make this",
+        note:"I think instead of a newbie discount we have an oldbie discount where I get<br>80 cubes for free and have all my bill paid for me and I get a house and a car and<br>a sexy trophy wife who cooks me big fucking steak and baked potatoes every night",
+        footer:"i spent too much time on this",
+        notice:"0 per LemonSoda",
+        background:"holidays/background4", cookie:"holidays/cookie4", currency:"token", price:"0.1",
+        colors:{
+            header: "#93caf6",
+            details:{
+                header: "#6379c4c2", item:"#5881d0", image:"#2e426a"
+            }
+        },
+        details:[
+            {name:"HyperCubes", image:"cube", count:80},
+            {name:"Bills", image:"bill", count:"Paid"},
+            {name:"House", image:"home", count:1},
+            {name:"Car", image:"bravecar", count:1},
+            {name:"Sexy Trophy Wife", image:"trophy", count:1}
+        ]
     }
 ];
 
